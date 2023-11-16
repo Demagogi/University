@@ -3,7 +3,7 @@ using MediatR;
 using University.Application.Contracts.Persistence;
 using University.Domain.Entities;
 
-namespace University.Application.Features.Students
+namespace University.Application.Features.Students.Queries.GetStudentsList
 {
     internal class GetStudentsListQueryHandler : IRequestHandler<GetStudentsListQuery, List<StudentsListVm>>
     {
@@ -12,8 +12,8 @@ namespace University.Application.Features.Students
 
         public GetStudentsListQueryHandler(IMapper mapper, IAsyncRepository<Student> studentRepository)
         {
-            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
-            _studentRepository = studentRepository ?? throw new ArgumentNullException(nameof(studentRepository));
+            _mapper = mapper;
+            _studentRepository = studentRepository;
         }
 
         public async Task<List<StudentsListVm>> Handle(GetStudentsListQuery request, CancellationToken cancellationToken)

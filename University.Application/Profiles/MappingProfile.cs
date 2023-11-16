@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
-using University.Application.Features.Lectors;
-using University.Application.Features.Students;
+using University.Application.Features.Lectors.Queries.GetLectorsList;
+using University.Application.Features.Students.Queries.GetStudentsList;
+using University.Application.Features.Students.Queries.GetStudentWithSubjectsList;
+using University.Application.Features.Subjects.Queries.GetSubjectsList;
 using University.Domain.Entities;
 
 namespace University.Application.Profiles
@@ -11,7 +13,9 @@ namespace University.Application.Profiles
         {
             CreateMap<Lector, LectorListVm>().ReverseMap();
             CreateMap<Student, StudentsListVm>().ReverseMap();
-            CreateMap<Subject, StudentSubjectsListVm>().ReverseMap();
+            CreateMap<Student, StudentWithSubjectsListVm>().ReverseMap();
+            CreateMap<Subject, SubjectsListVm>().ReverseMap();
+            CreateMap<Student, StudentWithSubjectsDto>();
         }
     }
 }

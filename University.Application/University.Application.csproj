@@ -11,12 +11,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Subjects\" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
-    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <Folder Include="Features\Lectors\Commands\CreateLector\" />
+    <Folder Include="Features\Students\Commands\CreateStudent\" />
+    <Folder Include="Features\Subjects\Commands\CreateSubject\" />
   </ItemGroup>
 
 </Project>

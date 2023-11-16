@@ -1,4 +1,4 @@
-﻿namespace University.Application.Features.Lectors
+﻿namespace University.Application.Features.Lectors.Queries.GetLectorsList
 {
     public class LectorListVm
     {

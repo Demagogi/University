@@ -3,7 +3,7 @@ using MediatR;
 using University.Application.Contracts.Persistence;
 using University.Domain.Entities;
 
-namespace University.Application.Features.Lectors
+namespace University.Application.Features.Lectors.Queries.GetLectorsList
 {
     public class GetLectorsListQueryHandler : IRequestHandler<GetLectorsListQuery, List<LectorListVm>>
     {
