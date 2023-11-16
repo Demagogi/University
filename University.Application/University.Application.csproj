@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Lectors\Commands\CreateLector\" />
     <Folder Include="Features\Students\Commands\CreateStudent\" />
     <Folder Include="Features\Subjects\Commands\CreateSubject\" />
   </ItemGroup>
