@@ -17,6 +17,8 @@
 
   <ItemGroup>
     <Folder Include="Features\Students\Commands\CreateStudent\" />
+    <Folder Include="Features\Students\Commands\DeleteStudent\" />
+    <Folder Include="Features\Students\Commands\UpdateStudent\" />
     <Folder Include="Features\Subjects\Commands\CreateSubject\" />
   </ItemGroup>
 
