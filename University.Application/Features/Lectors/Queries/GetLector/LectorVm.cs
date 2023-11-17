@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace University.Application.Features.Lectors.Queries.GetLector
+﻿namespace University.Application.Features.Lectors.Queries.GetLector
 {
     public class LectorVm
     {
