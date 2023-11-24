@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
-using University.Application.Contracts.Persistence;
+using University.Domain.Contracts.Persistence;
 using University.Application.Features.Lectors.Commands.UpdateLector;
 using University.Domain.Entities;
 

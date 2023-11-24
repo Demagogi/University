@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
-using University.Application.Contracts.Persistence;
+using University.Domain.Contracts.Persistence;
 
 namespace University.Application.Features.Students.Queries.GetStudentWithSubjectsList
 {

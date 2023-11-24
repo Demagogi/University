@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using University.Domain.Contracts.Persistence;
+using University.Domain.Entities;
 
 namespace University.Persistance.Repositories
 {
-    internal class LectorRepository
+    public class LectorRepository : AsyncRepository<Lector>, ILectorRepository
     {
+        public LectorRepository(UniversityDbContext dbContext) : base(dbContext)
+        {
+        }
     }
 }

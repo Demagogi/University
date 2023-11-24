@@ -1,4 +1,4 @@
-﻿namespace University.Application.Contracts.Persistence
+﻿namespace University.Domain.Contracts.Persistence
 {
     public interface IAsyncRepository<T> where T : class
     {

@@ -39,6 +39,11 @@ namespace University.Application.Profiles
             CreateMap<Subject, DeleteSubjectCommand>().ReverseMap();
 
             CreateMap<Subject, SubjectDto>();
+
+            CreateMap<Student, CreateSubjectCommand>().ReverseMap();
+            CreateMap<Student, UpdateSubjectCommand>().ReverseMap();
+            CreateMap<Student, DeleteSubjectCommand>().ReverseMap();
+
         }
     }
 }

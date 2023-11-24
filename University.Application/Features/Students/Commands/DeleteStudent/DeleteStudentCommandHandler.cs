@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
-using University.Application.Contracts.Persistence;
+using University.Domain.Contracts.Persistence;
 using University.Domain.Entities;
 
 namespace University.Application.Features.Students.Commands.DeleteStudent
